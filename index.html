@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> STUDENT SURVEY FORM</title>
+   <link rel="stylesheet" href="styles.css">
+    </head>
+  <body id="body">
+    <link rel="stylesheet" href="styles.css">
+   <b> <h1 id="title"> STUDENT SURVEY FORM</h1>
+    <p id="description">Thank you for helping us with this survry</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label><br><br>
+      <input type="text" id="name" placeholder="Enter your name" required><br><br>
+      <label for="email" id="email-label" >Email</label><br><br>
+      <input type="email" id="email" placeholder="enter your email" pattern="[a-zA-Z0-9.]+@[a-z-Z0-9.]+\.[a-zA-Z]{2,}$"
+      title="please enter in this form yourid@domain.prifix" required><br></br>
+      <label for="number" id="number-label">Number</label><br><br>
+      <input type="number" id="number" placeholder="number" min="1000000000" max="200"><br></br>
+      <label for="class" id="class">Class</label><br><br>
+      <select name="class"id="dropdown"  ><option>BSC</option><option>BCOM</option><option>BCA</option><option>BSW</option><option>BA</option><option>BBA</option></select><br></br>
+      
+     <label for="year" id="year">Year</label> <br><br><input type="radio" name="year" value="1">1st year</input><br><br>
+     <input type="radio" name="year" value="2">2nd year</input><br><br>
+     <input type="radio" name="year" value="2">3rd year</input><br></br>
+
+<label for="l" id="Languages">Languages known :</label><br><br>
+<input type="checkbox" value="Eng">English</input> <br><br>
+<input type="checkbox" value="Hindi">Hindi</input> <br><br>
+
+<input type="checkbox" value="kan">Kannada</input> <br></br>
+<label for="c" id="c">Comment Line</label><br><br>
+<textarea name="address" placeholder="Write about you" id="C" ></textarea><br></br>
+<input type="submit"  id="submit">
+
+<b>
+    </form>
+  </body>
+</html>
